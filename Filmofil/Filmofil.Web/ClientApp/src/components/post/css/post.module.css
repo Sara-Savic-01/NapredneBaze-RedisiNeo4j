@@ -1,0 +1,48 @@
+.post {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.postCard {
+  margin: 20px;
+  display:flex;
+  flex: 1;
+  border-radius: 5px !important;
+  background-color: rgb(255,255,255) !important;
+  box-shadow: 20px 20px rgb(6, 10, 92) !important;
+  color:rgb(4, 8, 77) !important;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  font-weight:bold;
+  margin-bottom: 40px !important;
+}
+
+.postSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240)
+}
+
+.cardContent {
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+}
+
+.buttonBase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  height: 100%;
+  width: 100%;
+}
+
+.cardActionContent {
+  width: 100% !important;
+}
+
+.hidden {
+  display: none !important;
+}

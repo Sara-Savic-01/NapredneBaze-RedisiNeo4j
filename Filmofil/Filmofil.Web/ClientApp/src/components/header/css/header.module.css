@@ -1,0 +1,102 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(5, 11, 92);
+  color: rgb(255, 255, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  font-style: italic !important;
+  
+}
+.toolbar:hover {
+      background-color:rgb(4, 8, 77);
+}
+.filmiLogo {
+display: flex;
+flex: 2;
+}
+
+.filmiIcon {
+cursor:pointer;
+margin-right: 10px;
+}
+
+.topCenterButtonsContainer {
+display: flex;
+flex: 3;
+justify-content: space-between;
+border-radius: 10px !important;
+
+
+}
+
+.newPostButton {
+  display: flex;
+  margin: 10px !important;
+  flex: 1;
+  
+  
+  
+}
+.newPostButton:hover {
+      background-color: rgb(92,224,230);
+      color:black;
+}
+.categoriesButton {
+display:flex;
+margin: 10px !important;
+flex: 1;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+font-style: italic !important;
+justify-content: center !important;
+border-radius: 10px !important;
+justify-content: center !important;
+}
+
+.comunitiesButton:hover {
+  background-color: rgb(92,224,230);
+  color: black;
+}
+.filmiTypography {
+margin-right: 10px !important;
+}
+
+.signUp {
+flex: 2;
+display: flex;
+justify-content: flex-end;
+}
+
+.button {
+margin-right: 10px !important;
+margin-left: 10px !important;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+font-style: italic !important;
+border-radius: 10px !important;
+justify-content: center !important;
+
+}
+
+.accountMenu {
+flex: 2;
+display: flex;
+justify-content: flex-end;
+}
+
+.hidden {
+display: none;
+}
+
+.spinner {
+z-index: 1 !important;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+
+.spinner2 {
+position: fixed !important;
+z-index: 2000 !important;
+margin-left: 48%;
+margin-top: 40vh;
+}

@@ -1,0 +1,33 @@
+.postsContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radioButtons {
+  margin: 5px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.formControl {
+  margin: 1;
+  min-width: 120px;
+}
+
+.loadMoreButton {
+  width: 60% !important;
+}
+
+.loadMoreIcon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.btn{
+  
+}

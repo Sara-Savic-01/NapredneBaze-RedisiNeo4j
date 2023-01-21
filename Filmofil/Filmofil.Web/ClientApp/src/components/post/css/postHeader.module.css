@@ -1,0 +1,9 @@
+.postHeader {
+  display: flex;
+  margin-left: 16px;
+}
+
+.topic {
+  font-weight: bold !important;
+  margin-right: 10px !important;
+}

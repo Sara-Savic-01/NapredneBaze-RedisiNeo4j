@@ -1,0 +1,31 @@
+.comment {
+  margin: 20px;
+  display:flex;
+  flex-direction: column;
+  
+  background-color: rgb(255,255,255);
+  box-shadow: 20px 20px rgb(6, 10, 92) !important;
+  
+  border-radius: 5px;
+  color:rgb(4, 8, 77) !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.caption {
+  padding-left: 16px;
+}
+
+.commentSidebar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240)
+}
+
+.expandButton {
+  transform: scale(0.75)
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+		<PackageReference Include="Neo4j.Driver" Version="4.4.0" />
+		<PackageReference Include="Neo4jClient" Version="3.1.0.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Filmofil.Domain\Filmofil.Domain.csproj" />
+		<ProjectReference Include="..\Filmofil.Neo4J\Filmofil.Neo4J.csproj" />
+		<ProjectReference Include="..\Filmofil.Redis\Filmofil.Redis.csproj" />
+	</ItemGroup>
+
+</Project>
