@@ -8,7 +8,7 @@
   
 }
 .toolbar:hover {
-      background-color:rgb(4, 8, 77);
+      background-color:rgb(4, 8, 77) !important;
 }
 .filmiLogo {
 display: flex;

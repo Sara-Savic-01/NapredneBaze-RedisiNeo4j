@@ -26,7 +26,7 @@
 }
 
 .title {
-  color:rgb(4, 8, 77);
+  color:rgb(4, 8, 77) !important;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
   font-weight:bold;
